@@ -7,7 +7,6 @@
  * @n: A pointer to the queue's size value.
  * @item: The item to add to the queue.
  */
-
 void enqueue_item_2(binary_tree_t **queue_h, binary_tree_t **queue_t,
 	int *n, void *item)
 {
@@ -171,4 +170,3 @@ int binary_tree_is_heap(const binary_tree_t *tree)
 	}
 	return (is_max_bin_heap);
 }
-
