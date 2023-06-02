@@ -40,6 +40,7 @@ void enqueue_item_2(binary_tree_t **queue_h, binary_tree_t **queue_t,
  *
  * Return: The value of the removed queue.
  */
+
 binary_tree_t *dequeue_item_2(binary_tree_t **queue_h,
 	binary_tree_t **queue_t, int *n)
 {
@@ -79,6 +80,7 @@ binary_tree_t *dequeue_item_2(binary_tree_t **queue_h,
  *
  * Return: 1 if the tree is complete, otherwise 0.
  */
+
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
 	binary_tree_t *queue_head = NULL;
@@ -129,6 +131,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
  * @max: The maximum value in the binary tree.
  * @is_max_heap: A pointer to the tree's max binary heap flag.
  */
+
 void binary_heap_checker(const binary_tree_t *tree, int max, int *is_max_heap)
 {
 	if (tree != NULL)
@@ -154,10 +157,11 @@ void binary_heap_checker(const binary_tree_t *tree, int max, int *is_max_heap)
  *
  * Return: 1 if the tree is a max binary heap, otherwise 0.
  */
+
 int binary_tree_is_heap(const binary_tree_t *tree)
 {
 	int is_complete = 0;
-	int is_max_bin_heap = 0;
+2	int is_max_bin_heap = 0;
 
 	if (tree != NULL)
 	{
